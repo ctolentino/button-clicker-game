@@ -1,13 +1,4 @@
-var num = document.getElementById("countNum");
-var button = document.getElementById('button');
-
-console.log(button);
-
-button.addEventListener("click", incrementNum);
-
-var i = 0;
-
-	function incrementNum(){
+function incrementNum(){
 		
 		//compound condition
 		if(i === 10 && i > 9){
@@ -19,8 +10,15 @@ var i = 0;
 			alert("You're a winner!");
 		}
 
+		//else if is providing an additional instruction, else is the last
 		if(i === 10){
 			i = 0;
+		}
+		else if(){
+
+		}
+		else(){
+
 		}
 
 		//incrementing
@@ -31,3 +29,8 @@ var i = 0;
 		console.log("my function works");
 		console.log(i);
 	}
+
+//for loops are used when you know when to terminate the function
+
+//while loops are used when you don't know when to terminate the function
+
